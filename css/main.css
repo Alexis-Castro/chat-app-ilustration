@@ -324,6 +324,7 @@ p {
 @media (max-width: 768px) {
     .container {
         width: 80%;
+        height: 60rem;
         grid-template-columns: 1fr;
         grid-template-rows: 40rem 22rem;
     }
@@ -339,6 +340,10 @@ p {
     }
     .text__principal h1 {
         font-size: 2.5rem;
+    }
+    .attribution {
+        font-size: .6rem;
+        color: #a5a5a5;
     }
 }
 
